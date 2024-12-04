@@ -10,6 +10,8 @@ DOWNLOAD_CKPT_URLS = {
     'FR': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/FR/checkpoint.pth',
     'JP': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/JP/checkpoint.pth',
     'ES': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/ES/checkpoint.pth',
+    'PT': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/ES/checkpoint.pth',
+    'PT-BR': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/ES/checkpoint.pth',
     'ZH': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/ZH/checkpoint.pth',
     'KR': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/KR/checkpoint.pth',
 }
@@ -20,6 +22,8 @@ DOWNLOAD_CONFIG_URLS = {
     'FR': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/FR/config.json',
     'JP': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/JP/config.json',
     'ES': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/ES/config.json',
+    'PT': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/ES/config.json',
+    'PT-BR': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/ES/config.json',
     'ZH': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/ZH/config.json',
     'KR': 'https://myshell-public-repo-host.s3.amazonaws.com/openvoice/basespeakers/KR/config.json',
 }
@@ -37,6 +41,8 @@ LANG_TO_HF_REPO_ID = {
     'FR': 'myshell-ai/MeloTTS-French',
     'JP': 'myshell-ai/MeloTTS-Japanese',
     'ES': 'myshell-ai/MeloTTS-Spanish',
+    'PT': 'myshell-ai/MeloTTS-Spanish',
+    'PT-BR': 'myshell-ai/MeloTTS-Spanish',
     'ZH': 'myshell-ai/MeloTTS-Chinese',
     'KR': 'myshell-ai/MeloTTS-Korean',
 }
